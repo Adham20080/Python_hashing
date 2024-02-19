@@ -1,14 +1,14 @@
-import hashlib
-from UserData import users_info
+# import hashlib
+# from UserData import users_info
 
-# 1
+# # 1
 
 # for i in users_info.values():
 #     b = hashlib.sha256(str(i["Password"]).encode("utf-8")).hexdigest()
 #     print(b)
 
 
-# 2
+# # 2
 
 # def hashing_func(abcde: str):
 #     sha256 = hashlib.sha256(str(abcde).encode("utf-8")).hexdigest()
@@ -18,7 +18,7 @@ from UserData import users_info
 # hashing_func(input("Hashlash uchun ma'lumot kiriting: "))
 
 
-# 3
+# # 3
 
 # class Hashing:
 #     def __init__(self, info_h: str):
